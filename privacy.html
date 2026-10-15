@@ -1,73 +1,146 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Description" content="Yes Today's privacy policy: your data stays on your phone. No accounts, no analytics, no tracking, no ads.">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    body {background-color: #f9f4ea}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 30.0px Menlo; color: #a9803a; -webkit-text-stroke: #a9803a}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #585e40; -webkit-text-stroke: #585e40}
-    p.p6 {margin: 0.0px 0.0px 26.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 28.0px 'Helvetica Neue'; color: #48121a; -webkit-text-stroke: #48121a}
-    p.p9 {margin: 0.0px 0.0px 14.0px 0.0px; font: 17.0px Georgia; color: #201a18; -webkit-text-stroke: #201a18}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    li.li10 {margin: 0.0px 0.0px 6.0px 0.0px; font: 17.0px Georgia; color: #201a18; -webkit-text-stroke: #201a18}
-    span.s1 {font-kerning: none; background-color: #fffdf6}
-    span.s2 {font-kerning: none}
-    span.s3 {font-kerning: none; color: #a9803a; -webkit-text-stroke: 0px #a9803a}
-    span.s4 {-webkit-text-stroke: 0px #000000}
-    span.s5 {font: 17.0px Georgia; text-decoration: underline ; font-kerning: none; color: #48121a; -webkit-text-stroke: 0px #48121a}
-    span.s6 {font: 15.0px 'Helvetica Neue'; font-kerning: none; background-color: #f0e5d3}
-    span.s7 {text-decoration: underline ; font-kerning: none}
-    ul.ul1 {list-style-type: disc}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Yes Today</title>
+<meta name="description" content="Yes Today's privacy policy: your data stays on your phone. No accounts, no analytics, no tracking, no ads.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF6EE; --card:#FFFDF8; --ink:#2B2320; --muted:#8A7F74;
+    --wine:#5B1A22; --gold:#B8924A; --olive:#6B7051; --line:#E6DCCB; --chip:#F3EADB;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font:17px/1.65 Georgia,'Times New Roman',serif;-webkit-font-smoothing:antialiased}
+  .page{max-width:640px;margin:0 auto;padding:34px 22px 60px}
+
+  .stamp{position:relative;background:var(--card);border:1.5px dashed var(--wine);
+         border-radius:4px;padding:30px 24px 26px;text-align:center;margin-bottom:14px}
+  .stamp .moon{font-size:30px;color:var(--gold);line-height:1;letter-spacing:6px}
+  .stamp h1{font-family:'Caveat',cursive;font-weight:600;font-size:46px;margin:6px 0 2px;color:var(--wine)}
+  .stamp .sub{font-family:'Special Elite',monospace;font-size:11px;letter-spacing:2.5px;
+              text-transform:uppercase;color:var(--olive)}
+  .postmark{position:absolute;top:14px;right:14px;width:76px;height:76px;border:1.5px solid var(--muted);
+            border-radius:50%;opacity:.55;transform:rotate(-12deg);
+            display:flex;flex-direction:column;align-items:center;justify-content:center;
+            font-family:'Special Elite',monospace;font-size:8px;letter-spacing:1px;color:var(--muted);
+            text-transform:uppercase}
+  .postmark b{font-size:10px;letter-spacing:.5px;font-weight:normal}
+  @media(max-width:480px){.postmark{display:none}.stamp h1{font-size:40px}}
+
+  .meta{font-family:'Special Elite',monospace;font-size:11px;letter-spacing:1.5px;
+        color:var(--muted);text-align:center;text-transform:uppercase;margin:0 0 26px}
+
+  .promise{border:1.5px dashed var(--olive);border-radius:4px;background:var(--card);
+           padding:18px 20px;text-align:center;margin:0 0 34px}
+  .promise .hand{font-family:'Caveat',cursive;font-weight:500;font-size:28px;line-height:1.25;margin:0;color:var(--wine)}
+  .promise .small{font-family:'Special Elite',monospace;font-size:10px;letter-spacing:1.5px;
+                  text-transform:uppercase;color:var(--muted);margin:8px 0 0}
+
+  h2{font-family:'Special Elite',monospace;font-weight:normal;font-size:13px;letter-spacing:2.5px;
+     text-transform:uppercase;margin:36px 0 10px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  h2 .tick{color:var(--gold)}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:20px}
+  li{margin-bottom:6px}
+  a{color:var(--wine);text-underline-offset:3px}
+  a:hover{color:var(--olive)}
+  a.mail{text-decoration:none;color:var(--ink)}
+  .mail{background:var(--chip);border-radius:3px;padding:1px 6px;font-family:'Special Elite',monospace;font-size:15px}
+
+  footer{margin-top:52px;padding-top:16px;border-top:1px solid var(--line);
+         font-family:'Special Elite',monospace;font-size:11px;letter-spacing:1.5px;
+         color:var(--muted);text-align:center;text-transform:uppercase}
+  footer a{color:var(--muted)}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">PAR AVION</span></p>
-<p class="p2"><span class="s1">15·10·26</span></p>
-<p class="p1"><span class="s1">DAY POST</span></p>
-<p class="p3"><span class="s1">☽○☾</span></p>
-<h1 style="margin: 0.0px 0.0px 2.0px 0.0px; text-align: center; font: 46.0px 'Helvetica Neue'; color: #48121a; -webkit-text-stroke: #48121a"><span class="s1">Privacy Policy</span></h1>
-<p class="p5"><span class="s1">YES TODAY</span></p>
-<p class="p6"><span class="s2">EFFECTIVE 15 OCTOBER 2026</span></p>
-<p class="p7"><span class="s1">Your data stays on your phone.</span></p>
-<p class="p2"><span class="s1">NO ACCOUNTS · NO ANALYTICS · NO TRACKING · NO ADS</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> WHAT YES TODAY COLLECTS</span></h2>
-<p class="p9"><span class="s2">Nothing. Yes Today has no user accounts, no sign-in, no analytics, no advertising, no tracking and no third-party data collection. We do not collect, receive, store, share or sell any personal information — none of it ever reaches us.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> WHAT STAYS ON YOUR DEVICE</span></h2>
-<p class="p9"><span class="s2">Everything you enter is stored only in the app's own storage on your phone:</span></p>
-<ul class="ul1">
-  <li class="li10"><span class="s4"></span><span class="s2">your profile — age, height, weight, goal, activities, diet and food allergies, and life stage (cycle years, perimenopause or menopause);</span></li>
-  <li class="li10"><span class="s4"></span><span class="s2">your cycle — period start dates, cycle length and any late days you record;</span></li>
-  <li class="li10"><span class="s4"></span><span class="s2">your days — ticked items, swaps, sleep answers, notes, end-of-cycle answers and history.</span></li>
-</ul>
-<p class="p9"><span class="s2">We have no servers holding a copy and no way to see any of it.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> NETWORK CONNECTIONS</span></h2>
-<p class="p9"><span class="s2">The app makes no network connections of its own. Fonts, drawings, recipes and all other content are built into the app, so Yes Today works fully offline.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> REMINDERS</span></h2>
-<p class="p9"><span class="s2">If you turn on daily reminders, iOS asks for your permission and the reminder is scheduled on your phone. Nothing is sent to us or any notification service. You can turn reminders off in the app or in iOS Settings at any time.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> EXPORTING A REPORT</span></h2>
-<p class="p9"><span class="s2">You can export a PDF summary of a cycle. It is created on your phone and opens the iOS share sheet; where it goes next — Files, Mail, a message — is your choice, and is handled by the app you choose, not by us.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> HEALTH INFORMATION</span></h2>
-<p class="p9"><span class="s2">Cycle dates, weight and wellbeing entries are sensitive by nature. They are treated like everything else above: kept on your device, under your control, invisible to us. Yes Today does not connect to Apple Health or any other health platform.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> BACKUPS AND DELETING YOUR DATA</span></h2>
-<p class="p9"><span class="s2">Deleting Yes Today from your phone deletes everything the app stored on it. If you use iCloud Backup or back up your phone to a computer, that backup — made by Apple, under your Apple account — may include the app's data until the backup is replaced or deleted. We have no access to those backups. There is nothing to request from us, because we hold nothing.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> THE APP STORE AND TESTFLIGHT</span></h2>
-<p class="p9"><span class="s2">Yes Today is distributed through Apple's App Store and, during testing, TestFlight. Apple may show us aggregated, anonymous statistics (such as download counts) and — only if you have opted in on your device — crash reports. This is collected by Apple under <a href="https://www.apple.com/legal/privacy/"><span class="s5">Apple's privacy policy</span></a> and contains nothing you entered into Yes Today.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> AGE</span></h2>
-<p class="p9"><span class="s2">Yes Today is meant for adults and is not directed at children under 13. Since the app collects no data from anyone, it collects none from children.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> NOT MEDICAL ADVICE</span></h2>
-<p class="p9"><span class="s2">Yes Today offers general wellness guidance. It is not medical advice, diagnosis or treatment and is not a contraceptive or a way to plan or prevent pregnancy. For medical concerns, please see a healthcare professional.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> CHANGES TO THIS POLICY</span></h2>
-<p class="p9"><span class="s2">If our privacy practices ever change, this page will be updated and the effective date above revised before the change applies.</span></p>
-<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s3">§</span><span class="s2"> CONTACT</span></h2>
-<p class="p9"><span class="s2">Questions about privacy are welcome at </span><span class="s6">luna.lifestyle.app@gmail.com</span><span class="s2">.</span></p>
-<p class="p11"><span class="s7"><a href="file:///Users/elenapetrenko/Downloads/index.html">YES TODAY</a></span><span class="s2"> · YOUR CYCLE · YOUR GOALS · YOUR PLAN</span></p>
+<div class="page">
+
+  <header class="stamp">
+    <div class="postmark"><span>par avion</span><b>15·10·26</b><span>day post</span></div>
+    <div class="moon">☽○☾</div>
+    <h1>Privacy Policy</h1>
+    <div class="sub">Yes Today</div>
+  </header>
+  <p class="meta">Effective 15 October 2026</p>
+
+  <div class="promise">
+    <p class="hand">Your data stays on your phone.</p>
+    <p class="small">no accounts · no analytics · no tracking · no ads</p>
+  </div>
+
+  <h2><span class="tick">§</span> What Yes Today collects</h2>
+  <p>Nothing. Yes Today has no user accounts, no sign-in, no analytics, no advertising, no tracking
+     and no third-party data collection. We do not collect, receive, store, share or sell any
+     personal information — none of it ever reaches us.</p>
+
+  <h2><span class="tick">§</span> What stays on your device</h2>
+  <p>Everything you enter is stored only in the app's own storage on your phone:</p>
+  <ul>
+    <li>your profile — age, height, weight, goal, activities, diet and food allergies, and life stage
+        (cycle years, perimenopause or menopause);</li>
+    <li>your cycle — period start dates, cycle length and any late days you record;</li>
+    <li>your days — ticked items, swaps, sleep answers, notes, end-of-cycle answers and history.</li>
+  </ul>
+  <p>We have no servers holding a copy and no way to see any of it.</p>
+
+  <h2><span class="tick">§</span> Network connections</h2>
+  <p>The app makes no network connections of its own. Fonts, drawings, recipes and all other content
+     are built into the app, so Yes Today works fully offline.</p>
+
+  <h2><span class="tick">§</span> Reminders</h2>
+  <p>If you turn on daily reminders, iOS asks for your permission and the reminder is scheduled on
+     your phone. Nothing is sent to us or any notification service. You can turn reminders off in
+     the app or in iOS Settings at any time.</p>
+
+  <h2><span class="tick">§</span> Exporting a report</h2>
+  <p>You can export a PDF summary of a cycle. It is created on your phone and opens the iOS share
+     sheet; where it goes next — Files, Mail, a message — is your choice, and is handled by the app
+     you choose, not by us.</p>
+
+  <h2><span class="tick">§</span> Health information</h2>
+  <p>Cycle dates, weight and wellbeing entries are sensitive by nature. They are treated like
+     everything else above: kept on your device, under your control, invisible to us. Yes Today does
+     not connect to Apple Health or any other health platform.</p>
+
+  <h2><span class="tick">§</span> Backups and deleting your data</h2>
+  <p>Deleting Yes Today from your phone deletes everything the app stored on it. If you use iCloud
+     Backup or back up your phone to a computer, that backup — made by Apple, under your Apple
+     account — may include the app's data until the backup is replaced or deleted. We have no access
+     to those backups. There is nothing to request from us, because we hold nothing.</p>
+
+  <h2><span class="tick">§</span> The App Store and TestFlight</h2>
+  <p>Yes Today is distributed through Apple's App Store and, during testing, TestFlight. Apple may
+     show us aggregated, anonymous statistics (such as download counts) and — only if you have opted
+     in on your device — crash reports. This is collected by Apple under
+     <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>
+     and contains nothing you entered into Yes Today.</p>
+
+  <h2><span class="tick">§</span> Age</h2>
+  <p>Yes Today is meant for adults and is not directed at children under 13. Since the app collects
+     no data from anyone, it collects none from children.</p>
+
+  <h2><span class="tick">§</span> Not medical advice</h2>
+  <p>Yes Today offers general wellness guidance. It is not medical advice, diagnosis or treatment
+     and is not a contraceptive or a way to plan or prevent pregnancy. For medical concerns, please
+     see a healthcare professional.</p>
+
+  <h2><span class="tick">§</span> Changes to this policy</h2>
+  <p>If our privacy practices ever change, this page will be updated and the effective date above
+     revised before the change applies.</p>
+
+  <h2><span class="tick">§</span> Contact</h2>
+  <p>Questions about privacy are welcome at <a class="mail" href="mailto:luna.lifestyle.app@gmail.com">luna.lifestyle.app@gmail.com</a>.</p>
+
+  <footer>
+    <a href="index.html">Yes Today</a> · your cycle · your goals · your plan
+  </footer>
+
+</div>
 </body>
 </html>

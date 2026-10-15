@@ -1,83 +1,176 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Description" content="Yes Today is a wellness planner for women that shapes each day around your cycle and stage of life — food, movement and mind practices, all private on your phone.">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    body {background-color: #f9f4ea}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 34.0px Menlo; color: #a9803a; -webkit-text-stroke: #a9803a}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #585e40; -webkit-text-stroke: #585e40}
-    p.p6 {margin: 0.0px 58.0px 18.0px 58.0px; text-align: center; text-indent: -58.0px; font: 17.0px Georgia; color: #201a18; -webkit-text-stroke: #201a18}
-    p.p7 {margin: 0.0px 0.0px 26.0px 0.0px; text-align: center; font: 25.0px 'Helvetica Neue'; color: #585e40; -webkit-text-stroke: #585e40}
-    p.p8 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: center; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18}
-    p.p9 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #48121a; -webkit-text-stroke: #48121a}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Georgia; color: #201a18; -webkit-text-stroke: #201a18}
-    p.p12 {margin: 0.0px 0.0px 4.0px 0.0px; font: 17.0px Georgia; color: #201a18; -webkit-text-stroke: #201a18}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #776c61; -webkit-text-stroke: #776c61}
-    span.s1 {font-kerning: none; background-color: #fffdf6}
-    span.s2 {font-kerning: none}
-    span.s3 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #776c61; -webkit-text-stroke: 0px #776c61}
-    span.s4 {font-kerning: none; background-color: #f0e5d3}
-    span.s5 {text-decoration: underline ; font-kerning: none}
-    span.s6 {font-kerning: none; color: #a9803a; -webkit-text-stroke: 0px #a9803a}
-    span.s7 {font: 17.0px 'Times New Roman'; font-kerning: none}
-    span.s8 {text-decoration: underline ; font-kerning: none; color: #48121a; -webkit-text-stroke: 0px #48121a}
-    span.s9 {font: 13.0px 'Helvetica Neue'; font-kerning: none; background-color: #f0e5d3}
-    span.s10 {font: 11.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #776c61; -webkit-text-stroke: 0px #776c61}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yes Today — Help</title>
+<meta name="description" content="Yes Today is a wellness planner for women that shapes each day around your cycle and stage of life — food, movement and mind practices, all private on your phone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF6EE; --card:#FFFDF8; --ink:#2B2320; --muted:#8A7F74;
+    --wine:#5B1A22; --gold:#B8924A; --olive:#6B7051; --line:#E6DCCB; --chip:#F3EADB;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font:17px/1.65 Georgia,'Times New Roman',serif;-webkit-font-smoothing:antialiased}
+  .page{max-width:640px;margin:0 auto;padding:34px 22px 60px}
+
+  .stamp{position:relative;background:var(--card);border:1.5px dashed var(--wine);
+         border-radius:4px;padding:38px 26px 32px;text-align:center;margin-bottom:22px}
+  .stamp .moon{font-size:34px;color:var(--gold);line-height:1;letter-spacing:8px}
+  .stamp h1{font-family:'Caveat',cursive;font-weight:600;font-size:58px;margin:8px 0 2px;color:var(--wine)}
+  .stamp .sub{font-family:'Special Elite',monospace;font-size:11px;letter-spacing:3px;
+              text-transform:uppercase;color:var(--olive)}
+  .postmark{position:absolute;top:14px;right:14px;width:76px;height:76px;border:1.5px solid var(--muted);
+            border-radius:50%;opacity:.55;transform:rotate(-12deg);
+            display:flex;flex-direction:column;align-items:center;justify-content:center;
+            font-family:'Special Elite',monospace;font-size:8px;letter-spacing:1px;color:var(--muted);
+            text-transform:uppercase}
+  .postmark b{font-size:10px;letter-spacing:.5px;font-weight:normal}
+  @media(max-width:480px){.postmark{display:none}.stamp h1{font-size:48px}.stamp .sub{letter-spacing:1.5px;font-size:10px}}
+
+  .lede{margin:0 auto 18px;max-width:46ch;text-align:center}
+  .hand{font-family:'Caveat',cursive;font-weight:500;font-size:25px;color:var(--olive);margin:0 0 26px;text-align:center}
+
+  .rows{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+        padding:16px 0;margin:0 0 30px;text-align:center}
+  .row{font-family:'Special Elite',monospace;font-size:12px;letter-spacing:2px;
+       text-transform:uppercase;color:var(--muted);margin:8px 0}
+  .row a{color:var(--wine);text-underline-offset:3px}
+  a.mail{text-decoration:none;color:var(--ink)}
+  .mail{background:var(--chip);border-radius:3px;padding:1px 6px;font-family:'Special Elite',monospace;
+        font-size:13px;letter-spacing:.5px;text-transform:none;color:var(--ink)}
+
+  h2{font-family:'Special Elite',monospace;font-weight:normal;font-size:13px;letter-spacing:2.5px;
+     text-transform:uppercase;margin:34px 0 8px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  h2 .tick{color:var(--gold)}
+  details{border-bottom:1px dashed var(--line);padding:10px 0}
+  summary{cursor:pointer;font-weight:bold;list-style:none;position:relative;padding-right:24px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:'+';position:absolute;right:2px;top:0;color:var(--gold);font-family:'Special Elite',monospace}
+  details[open] summary::after{content:'–'}
+  details p{margin:8px 0 4px}
+  a{color:var(--wine);text-underline-offset:3px}
+  a:hover{color:var(--olive)}
+
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);
+         font-family:'Special Elite',monospace;font-size:11px;letter-spacing:1.5px;
+         color:var(--muted);text-align:center;text-transform:uppercase}
+  footer a{color:var(--muted)}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">PAR AVION</span></p>
-<p class="p2"><span class="s1">EST·2026</span></p>
-<p class="p1"><span class="s1">DAY POST</span></p>
-<p class="p3"><span class="s1">☽○☾</span></p>
-<h1 style="margin: 0.0px 0.0px 2.0px 0.0px; text-align: center; font: 58.0px 'Helvetica Neue'; color: #48121a; -webkit-text-stroke: #48121a"><span class="s1">Yes Today</span></h1>
-<p class="p5"><span class="s1">YOUR CYCLE · YOUR GOALS · YOUR PLAN</span></p>
-<p class="p6"><span class="s2">A wellness planner for women that shapes each day around your cycle and your stage of life — cycle years, perimenopause or menopause — with a plan for food, movement and mind practices, written like a page in your own diary.</span></p>
-<p class="p7"><span class="s2">Your data stays on your phone.</span></p>
-<p class="p8"><span class="s3">SUPPORT — </span><span class="s4">luna.lifestyle.app@gmail.com</span></p>
-<p class="p9"><span class="s5"><a href="file:///Users/elenapetrenko/Downloads/privacy.html">PRIVACY POLICY</a></span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s6">§</span><span class="s2"> GETTING STARTED</span></h2>
-<p class="p11"><span class="s2"><b>How is my plan made?</b></span></p>
-<p class="p12"><span class="s2">From the questionnaire: your age, height, weight, goal, the activities you enjoy and how often you train, your diet and allergies, and the first day of your last period (or your stage of life if your periods have stopped). The app works out your daily calories, protein and training, then fills each day of your cycle with meals, sessions, a daily walk and two short mind practices. The Goal tab explains how your numbers were worked out.</span></p>
-<p class="p11"><span class="s2"><b>Do I need an account?</b></span></p>
-<p class="p12"><span class="s2">No. There is no sign-in and no account. Everything is kept in the app on your phone.</span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s6">§</span><span class="s2"> USING YOUR DAY</span></h2>
-<p class="p11"><span class="s2"><b>Can I swap a meal or a training session?</b></span></p>
-<p class="p12"><span class="s2">Yes. Open the item on the Day tab and choose another option. Swaps keep to your diet and allergies, and the day's totals update.</span></p>
-<p class="p11"><span class="s2"><b>Where is today's note?</b></span></p>
-<p class="p12"><span class="s2">Tap the postcard at the top of the Day tab to open today's letter.</span></p>
-<p class="p11"><span class="s2"><b>Is there a shopping list?</b></span></p>
-<p class="p12"><span class="s2">Yes — open it from the Day tab and choose how many days to shop for. It follows your swaps.</span></p>
-<p class="p11"><span class="s2"><b>Can I use pounds, feet and fluid ounces?</b></span></p>
-<p class="p12"><span class="s2">Yes. Choose US units in the questionnaire or on the Info tab. Recipes stay in grams and millilitres.</span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s6">§</span><span class="s2"> YOUR CYCLE</span></h2>
-<p class="p11"><span class="s2"><b>My period started — what do I do?</b></span></p>
-<p class="p12"><span class="s2">Near the end of your cycle the Day tab shows buttons for this. Tap "Period started" and a new cycle begins from that day.</span></p>
-<p class="p11"><span class="s2"><b>My period is late.</b></span></p>
-<p class="p12"><span class="s2">Tap "late" and the plan continues day by day until your period starts. If it's much later than usual, a note suggests when a pregnancy test or a visit to your doctor makes sense.</span></p>
-<p class="p11"><span class="s2"><b>I changed my weight or goal — why didn't today change?</b></span></p>
-<p class="p12"><span class="s2">Today and past days stay as they were, so what you've ticked always matches what you saw. Your new plan starts tomorrow. If you change your diet or allergies, today's unticked meals update straight away.</span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s6">§</span><span class="s2"> DATA AND REMINDERS</span></h2>
-<p class="p11"><span class="s2"><b>How do I turn reminders on or off?</b></span></p>
-<p class="p12"><span class="s2">On the Info tab, or in iOS Settings </span><span class="s7">→</span><span class="s2"> Notifications </span><span class="s7">→</span><span class="s2"> Yes Today.</span></p>
-<p class="p11"><span class="s2"><b>Can I keep a record of a cycle?</b></span></p>
-<p class="p12"><span class="s2">Yes — on the Info tab, export a PDF report of a cycle and save or send it wherever you like.</span></p>
-<p class="p11"><span class="s2"><b>How do I delete my data?</b></span></p>
-<p class="p12"><span class="s2">Delete the app from your phone. Everything it stored is removed with it; we hold no copy. See the <a href="file:///Users/elenapetrenko/Downloads/privacy.html"><span class="s8">privacy policy</span></a>.</span></p>
-<p class="p11"><span class="s2"><b>I got a new phone — will my plan move over?</b></span></p>
-<p class="p12"><span class="s2">Only if you restore your new phone from an iCloud or computer backup of the old one. There is no account to sign in to, so otherwise you'll start with a fresh plan.</span></p>
-<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #201a18; -webkit-text-stroke: #201a18"><span class="s6">§</span><span class="s2"> GOOD TO KNOW</span></h2>
-<p class="p11"><span class="s2"><b>Is this medical advice?</b></span></p>
-<p class="p12"><span class="s2">No. Yes Today gives general wellness guidance. It is not a contraceptive or a way to plan or prevent pregnancy. If you have a medical condition, are pregnant or breastfeeding, or have a history of disordered eating, please talk to your doctor before changing how you eat or train.</span></p>
-<p class="p11"><span class="s2"><b>Something isn't working.</b></span></p>
-<p class="p12"><span class="s2">Write to </span><span class="s9">luna.lifestyle.app@gmail.com</span><span class="s2"> with your iPhone model, iOS version and the app version (shown on the Info tab), and a screenshot if you can.</span></p>
-<p class="p13"><span class="s2">YES TODAY · <a href="file:///Users/elenapetrenko/Downloads/privacy.html"><span class="s10">PRIVACY</span></a> · ON PAPER TERMS, ON YOUR PHONE</span></p>
+<main class="page">
+
+  <header class="stamp">
+    <div class="postmark"><span>par avion</span><b>est·2026</b><span>day post</span></div>
+    <div class="moon">☽○☾</div>
+    <h1>Yes Today</h1>
+    <div class="sub">your cycle · your goals · your plan</div>
+  </header>
+
+  <p class="lede">A wellness planner for women that shapes each day around your cycle and your
+     stage of life — cycle years, perimenopause or menopause — with a plan for food, movement
+     and mind practices, written like a page in your own diary.</p>
+  <p class="hand">Your data stays on your phone.</p>
+
+  <div class="rows">
+    <p class="row">support — <a class="mail" href="mailto:luna.lifestyle.app@gmail.com">luna.lifestyle.app@gmail.com</a></p>
+    <p class="row"><a href="privacy.html">privacy policy</a></p>
+  </div>
+
+  <h2><span class="tick">§</span> Getting started</h2>
+  <details>
+    <summary>How is my plan made?</summary>
+    <p>From the questionnaire: your age, height, weight, goal, the activities you enjoy and how often
+       you train, your diet and allergies, and the first day of your last period (or your stage of
+       life if your periods have stopped). The app works out your daily calories, protein and
+       training, then fills each day of your cycle with meals, sessions, a daily walk and two short
+       mind practices. The Goal tab explains how your numbers were worked out.</p>
+  </details>
+  <details>
+    <summary>Do I need an account?</summary>
+    <p>No. There is no sign-in and no account. Everything is kept in the app on your phone.</p>
+  </details>
+
+  <h2><span class="tick">§</span> Using your day</h2>
+  <details>
+    <summary>Can I swap a meal or a training session?</summary>
+    <p>Yes. Open the item on the Day tab and choose another option. Swaps keep to your diet and
+       allergies, and the day's totals update.</p>
+  </details>
+  <details>
+    <summary>Where is today's note?</summary>
+    <p>Tap the postcard at the top of the Day tab to open today's letter.</p>
+  </details>
+  <details>
+    <summary>Is there a shopping list?</summary>
+    <p>Yes — open it from the Day tab and choose how many days to shop for. It follows your swaps.</p>
+  </details>
+  <details>
+    <summary>Can I use pounds, feet and fluid ounces?</summary>
+    <p>Yes. Choose US units in the questionnaire or on the Info tab. Recipes stay in grams and
+       millilitres.</p>
+  </details>
+
+  <h2><span class="tick">§</span> Your cycle</h2>
+  <details>
+    <summary>My period started — what do I do?</summary>
+    <p>Near the end of your cycle the Day tab shows buttons for this. Tap "Period started" and a new
+       cycle begins from that day.</p>
+  </details>
+  <details>
+    <summary>My period is late.</summary>
+    <p>Tap "late" and the plan continues day by day until your period starts. If it's much later than
+       usual, a note suggests when a pregnancy test or a visit to your doctor makes sense.</p>
+  </details>
+  <details>
+    <summary>I changed my weight or goal — why didn't today change?</summary>
+    <p>Today and past days stay as they were, so what you've ticked always matches what you saw. Your
+       new plan starts tomorrow. If you change your diet or allergies, today's unticked meals update
+       straight away.</p>
+  </details>
+
+  <h2><span class="tick">§</span> Data and reminders</h2>
+  <details>
+    <summary>How do I turn reminders on or off?</summary>
+    <p>On the Info tab, or in iOS Settings → Notifications → Yes Today.</p>
+  </details>
+  <details>
+    <summary>Can I keep a record of a cycle?</summary>
+    <p>Yes — on the Info tab, export a PDF report of a cycle and save or send it wherever you like.</p>
+  </details>
+  <details>
+    <summary>How do I delete my data?</summary>
+    <p>Delete the app from your phone. Everything it stored is removed with it; we hold no copy.
+       See the <a href="privacy.html">privacy policy</a>.</p>
+  </details>
+  <details>
+    <summary>I got a new phone — will my plan move over?</summary>
+    <p>Only if you restore your new phone from an iCloud or computer backup of the old one. There is no
+       account to sign in to, so otherwise you'll start with a fresh plan.</p>
+  </details>
+
+  <h2><span class="tick">§</span> Good to know</h2>
+  <details>
+    <summary>Is this medical advice?</summary>
+    <p>No. Yes Today gives general wellness guidance. It is not a contraceptive or a way to plan or
+       prevent pregnancy. If you have a medical condition, are pregnant or breastfeeding, or have a
+       history of disordered eating, please talk to your doctor before changing how you eat or train.</p>
+  </details>
+  <details>
+    <summary>Something isn't working.</summary>
+    <p>Write to <a class="mail" href="mailto:luna.lifestyle.app@gmail.com">luna.lifestyle.app@gmail.com</a> with your iPhone model, iOS version
+       and the app version (shown on the Info tab), and a screenshot if you can.</p>
+  </details>
+
+  <footer>
+    Yes Today · <a href="privacy.html">privacy</a> · on paper terms, on your phone
+  </footer>
+
+</main>
 </body>
 </html>
